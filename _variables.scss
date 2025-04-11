@@ -1,0 +1,50 @@
+/**
+ * SCREEN BREAKS
+ */
+
+$break-medium: 768px;
+$break-large: 1024px;
+
+/**
+ * COLORS
+ */
+
+// Spring
+$spring-base: #aace69;
+$spring-primary: #f7f2dc;
+$spring-secondary: #51673b;
+
+// Summer
+$summer-base: #52afc9;
+$summer-primary: #ffd770;
+$summer-secondary: #ffffff;
+
+// Autumn
+$autumn-base: #fcfaee;
+$autumn-primary: #ec8132;
+$autumn-secondary: #993f17;
+$autumn-fade: rgba(236, 129, 50, 0.1);
+
+// Winter
+$winter-base: #f8feff;
+$winter-primary: #2f70a9;
+$winter-secondary: #91d1f2;
+
+// Footer
+$footer-line: rgba(47, 112, 169, 0.1);
+$footer-text: rgba(47, 112, 169, 0.7);
+
+/**
+ * EXTENDS
+ */
+
+%content-width {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+%light-on-dark-text {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
